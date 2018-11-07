@@ -4,10 +4,10 @@ A supervised machine learning system that uses batch gradient descent algorithm 
 ## Concept
 ### Linear Regression
 We have a training set with a input variable that maps to an output/target variable.
-	m: Number of training examples
-	x: input variables.
-	y: output variables
-	(x,y) denotes a single training example
+m: Number of training examples
+x: input variables.
+y: output variables
+(x,y) denotes a single training example
 
 To start with, we need to ensure that we minimize (h(x)-y)^2
 Basically, we want to find values of t and p to minimize the  12mi=1m(h(xi) - yi)2
